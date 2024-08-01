@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Vigar</title>
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- ملف css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+    <header>
+        <nav>
+            <a href="../index.html" class="logo"><span>بوتيك </span>اسامة</a>
+            <ul class="links" dir="rtl">
+                <li class="active"><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li>
+                    <a href="1.html">منتجاتنا</a>
+                </li>
+                <li>
+                    <a href="3.html">مميزاتنا</a>
+                </li>
+                <li><a href="tw.html">تواصل معنا</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@osama.boutique?_t=8oU0jUwiLKb&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/osama.boutique/profilecard/?igsh=dnB1NHVucTd6eWtz"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/9647711119414"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <i id="btnmenu" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <div class="hero-sec">
+        <div class="contanier">
+            <div class="div-text" dir="rtl">
+                <h1><img src="../img/dd.jpg" alt=""></h1>
+                بوتيك اسامه يقدم مجموعة متنوعة من منتجات العناية بالجمال، تشمل العناية بالبشرة والشعر والجسم، ومستحضرات التجميل، والعطور، وإكسسوارات التجميل. تجدون لدينا منتجات من علامات تجارية موثوقة لتلبية كافة احتياجاتكم الجمالية.
+                <p></p> <a href="https://www.instagram.com/osama.boutique/profilecard/?igsh=dnB1NHVucTd6eWtz" class="btn"> منتجات المتوفره</a>
+            </div>
+
+        </div>
+        <script>
+            let btnmenu = document.getElementById("btnmenu");
+            let navlinks = document.querySelector(".links");
+            btnmenu.onclick = function() {
+                btnmenu.classList.toggle("fa-times")
+                navlinks.classList.toggle("active")
+
+            }
+        </script>
+</body>
+
+</html>

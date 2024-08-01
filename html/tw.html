@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakr jassem</title>
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- ملف css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        h2 {
+            color: #333;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .div-text a {
+            display: inline-block;
+            font-size: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            background-color: #cc9999;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        a:hover {
+            background-color: #0056b3;
+        }
+        
+        .div-text i {
+            color: #cc9999;
+            font-size: 24px;
+            margin-left: 200px;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <header>
+        <nav>
+            <a href="../index.html" class="logo"><span>بوتيك </span>اسامة</a>
+            <ul class="links" dir="rtl">
+                <li class="active"><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li>
+                    <a href="1.html">منتجاتنا</a>
+                </li>
+                <li>
+                    <a href="3.html">مميزاتنا</a>
+                </li>
+                <li><a href="tw.html">تواصل معنا</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@osama.boutique?_t=8oU0jUwiLKb&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/osama.boutique/profilecard/?igsh=dnB1NHVucTd6eWtz"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/9647711119414"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <i id="btnmenu" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <div class="hero-sec">
+        <div class="contanier">
+            <div class="div-text">
+                <h2>تواصل معنا على وسائل التواصل الاجتماعي</h2>
+                <ul>
+                    <li><i class="fa-brands fa-tiktok"></i> <a href="https://www.tiktok.com/@osama.boutique?_t=8oU0jUwiLKb&_r=1">Tiktok</a>
+                    </li>
+                    <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/osama.boutique/profilecard/?igsh=dnB1NHVucTd6eWtz">instagram</a></li>
+                    <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/9647711119414">WhatsApp</a></li>
+                    <li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/osama.boutique?mibextid=LQQJ4d">facebook</a></li>
+
+                    <!-- يمكنك إضافة المزيد من وسائل التواصل الاجتماعي هنا -->
+                </ul>
+
+            </div>
+            <div class="div-img">
+                <img src="../img/dd.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        let btnmenu = document.getElementById("btnmenu");
+        let navlinks = document.querySelector(".links");
+        btnmenu.onclick = function() {
+            btnmenu.classList.toggle("fa-times")
+            navlinks.classList.toggle("active")
+
+        }
+    </script>
+</body>
+
+</html>
